@@ -16,10 +16,15 @@
 
 // console.log(superhero.getName());
 
-const math = require("./math");
+//const math = require("./math");
 
 //destructuring
 //const {add,sub} = math  //now you can call the function withought math obj
 
-console.log(math.add(2,3));
-console.log(math.sub(3,2));
+// console.log(math.add(2,3));
+// console.log(math.sub(3,2));
+
+
+const data = require("./data.json")
+
+console.log(data);
