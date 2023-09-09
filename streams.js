@@ -25,6 +25,7 @@ const writeableStream = fs.createWriteStream("./file1.txt");
 // })
 
 
+
 //pipes
 
 //readableStream.pipe(writeableStream);
